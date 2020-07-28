@@ -20,3 +20,8 @@ az spring-cloud app create -n gateway --is-public true
 ```
 az spring-cloud app deploy -n gateway --jar-path target/demo-0.0.1-SNAPSHOT.jar
 ```
+
+## Troubleshoot Deployment
+```
+az spring-cloud app deploy -n gateway --jar-path target/demo-0.0.1-SNAPSHOT.jar
+```
